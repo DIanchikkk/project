@@ -1,0 +1,69 @@
+body{
+    background-color: black;
+    font-family: "Josefin Sans", serif;
+}
+
+.form {
+    max-width: 400px;
+    padding: 30px;
+    background: #000; 
+    border-radius: 10px;
+    margin: 20px auto;
+    color: #fff; 
+    font-family: "Josefin Sans", serif;
+    
+  }
+  
+  .form__title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff; 
+    font-family: "Josefin Sans", serif;
+  }
+  
+  .form__group {
+    margin-bottom: 15px;
+  }
+  
+  .form__label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff; 
+  }
+  
+  .form__input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background: #333; 
+    color: #fff; 
+  }
+  
+  .form__input:focus {
+    outline: none;
+    border-color: #aaa;
+  }
+  
+  .form__button {
+    width: 100%;
+    padding: 10px 15px;
+    margin-left: 10px;
+    background: black; 
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s, color 0.2s; 
+    font-family: "Josefin Sans", serif;
+    font-weight: 600;
+    
+}
+
+.form__button:hover {
+    background-color: white; 
+    color: black; 
+}
