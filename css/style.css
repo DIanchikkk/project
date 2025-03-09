@@ -15,10 +15,11 @@ li {
 
 .header__logo {
     color: white;
-    font-size: 28px;
+    font-size: 30px;
     font-weight: bold;
     margin-left: 20px; 
     font-family: "Josefin Sans", serif;
+
 }
 
 .header__menu ul {
@@ -82,7 +83,7 @@ a {
 
 }
 .main__information h1{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 700;
 }
 .main__information h2{
